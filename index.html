@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Seidel | AI Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">Jan Seidel</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#interests">Interests</a></li>
+        </ul>
+    </nav>
+
+    <!-- Changed ID from 'about' to 'home' so the nav link scrolls to the new section below -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <!-- Profile Picture Section -->
+            <div class="profile-img-container">
+                <img src="img/pfp.jpg" alt="Jan Seidel Profile Picture" class="profile-img">
+            </div>
+            
+            <h1>Hi, I'm <span class="highlight">Jan Seidel</span></h1>
+            <h2>Intelligent Systems Student @ TUL</h2>
+            <p>Passionate about Artificial Intelligence, efficient systems, and solving complex problems.</p>
+        </div>
+    </header>
+
+    <!-- New Dedicated About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>I'm a 22-year-old student pursuing a degree in Information Technology with a focus on Artificial Intelligence at the Technical University of Liberec.</p>
+            
+            <p class="mt-2">I'm naturally analytical and have always enjoyed solving various puzzles. I excel in environments that allow me to learn through <strong>hands-on experience</strong>. My preferred way of learning is by diving into the code, constructing systems, and understanding how things operate behind the scenes.</p>
+            
+            <p class="mt-2">Outside of my technical pursuits, I have big aspirations. My primary driving force in life is to build a successful career so that I can comfortably provide for my loved ones. I also have a massive dream to travel the world, with a specific focus on exploring Asia. Experiencing the rich cultures, landscapes, and food of Japan, South Korea, Indonesia, Thailand, and China is at the very top of my bucket list.</p>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Education Timeline</h2>
+        <div class="timeline">
+            <!-- Ongoing Education -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Technical University of Liberec (TUL)</h3>
+                    <p class="date">2024 - Present (Ongoing)</p>
+                    <p>Bachelor's Degree in Intelligent Systems (AI). Focusing on software engineering, data optimization, and advanced computing.</p>
+                </div>
+            </div>
+            
+            <!-- Finished Secondary School -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>SPŠ a VOŠ Liberec</h3>
+                    <p class="date">2020 - 2024</p>
+                    <p>Graduated with a focus on Information Technology. Built a robust foundation in programming, database management, and computer networks. Engaged in hands-on technical projects that developed my core problem-solving skills and prepared me for advanced AI studies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Professional Experience</h2>
+        <div class="card">
+            <h3>Database Optimization Trainee</h3>
+            <p class="date">ABB | Secondary School Practical Training</p>
+            <ul>
+                <li>Participated in two 1-week practical training blocks at ABB during the 2nd and 3rd years of IT studies at SPŠ a VOŠ Liberec.</li>
+                <li>Successfully migrated production tables from raw text files into a structured SQL database within a tight timeframe.</li>
+                <li>Developed automated queries that reduced daily report generation time from <strong>15 minutes to just 30 seconds</strong> (a 97.7% increase in efficiency).</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <div class="tags">
+                    <span>Python</span><span>C#</span><span>C/C++</span><span>Java</span><span>Assembly</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Databases</h3>
+                <div class="tags">
+                    <span>Redis</span><span>MSSQL</span><span>MySQL</span><span>MongoDB</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Networking</h3>
+                <div class="tags">
+                    <span>Cisco NetAcad (3x Certified)</span><span>TCP/IP</span><span>Routing & Switching</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <h2>Certifications</h2>
+        <div class="carousel">
+            <!-- Left Button -->
+            <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="carousel-track">
+                <!-- Certificate 1 -->
+                <div class="carousel-slide active">
+                    <img src="img/IT_Essentials_Jan_Seidel.jpg" alt="IT Essentials" class="cert-img-main">
+                    <div class="cert-info">
+                        <h3>IT Essentials</h3>
+                        <p class="issuer">Cisco Networking Academy</p>
+                        <p class="date">Issued: 2022</p>
+                    </div>
+                </div>
+                
+                <!-- Certificate 2 -->
+                <div class="carousel-slide">
+                    <img src="img/CCNAv7_Introduction_to_Networks_Jan_Seidel.jpg" alt="CCNA Introduction to Networks" class="cert-img-main">
+                    <div class="cert-info">
+                        <h3>CCNAv7: Introduction to Networks</h3>
+                        <p class="issuer">Cisco Networking Academy</p>
+                        <p class="date">Issued: 2023</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="carousel-slide">
+                    <img src="img/CCNAv7_Switching_Routing_and_Wireless_Essentials_Jan_Seidel.jpg" alt="CCNA Switching, Routing, and Wireless Essentials" class="cert-img-main">
+                    <div class="cert-info">
+                        <h3>CCNAv7: Switching, Routing, and Wireless Essentials</h3>
+                        <p class="issuer">Cisco Networking Academy</p>
+                        <p class="date">Issued: 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Button -->
+            <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section id="interests" class="section">
+        <h2>Interests & Achievements</h2>
+        
+        <!-- Gaming Card -->
+        <div class="card">
+            <h3>High-Level Competitive Gaming</h3>
+            <p>I've been playing video games since I was a child. Many of my friends I met through gaming, and some of my best memories are with them. When I play, I can relax and enjoy myself without worries. I also consider myself quite skilled, and here are some of my achievements:</p>
+            <ul>
+                <li><strong>Apex Legends:</strong> Master Rank across multiple seasons and multiple accounts (at the same time).</li>
+                <li><strong>Fragpunk:</strong> Ranked Top 100 Global. Simultaneously held the <strong>#1 and #2 global ranks</strong> for the character "Chum" using two separate accounts.</li>
+                <li><strong>Call of Duty Warzone:</strong> Achieved Iridescent Rank.</li>
+            </ul>
+        </div>
+        
+        <!-- Music Media Carousel -->
+        <div class="card mt-2">
+            <h3>Live Music & Concerts</h3>
+            <p>Listening to music is a huge part of my life. I love the emotions and energy that music brings to my daily routine. My favourite genres include metal and kpop. Here are some of the incredible artists I've seen live:</p>
+            
+            <div class="carousel">
+                <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+
+                <div class="carousel-track">
+                    <!-- Slide 1: Photo -->
+                    <div class="carousel-slide active">
+                        <div class="media-container">
+                            <img src="music/group.jpg" alt="Babymetal - Berlin 2025" class="media-content">
+                            <div class="media-overlay"><span>Babymetal - Berlin 2025</span></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2: Video -->
+                    <div class="carousel-slide">
+                        <div class="media-container">
+                            <video autoplay loop muted playsinline class="media-content">
+                                <source src="music/s3clip.mp4" type="video/mp4">
+                            </video>
+                            <div class="media-overlay"><span>Babymetal - Song 3 - Berlin 2025</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Photo -->
+                    <div class="carousel-slide">
+                        <div class="media-container">
+                            <img src="music/poppy.jpg" alt="Poppy - Berlin 2025" class="media-content">
+                            <div class="media-overlay"><span>Poppy - Berlin 2025</span></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="media-container">
+                            <img src="music/bamb.jpg" alt="Bambie Thug - Berlin 2025" class="media-content">
+                            <div class="media-overlay"><span>Bambie Thug - Berlin 2025</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Jan Seidel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
