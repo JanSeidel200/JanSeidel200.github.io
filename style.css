@@ -226,7 +226,7 @@ nav {
 /* Skills Grid */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* Forced 2x2 grid */
     gap: 2rem;
 }
 
@@ -395,6 +395,11 @@ nav {
     .prev-btn { left: 5px; }
     .next-btn { right: 5px; }
     .carousel { padding: 2rem 20px; }
+    
+    /* Drops the skills grid to a single column on phones */
+    .skills-grid { 
+        grid-template-columns: 1fr; 
+    }
 }
 
 /* Footer */
